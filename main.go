@@ -47,7 +47,7 @@ func main() {
 			rc.Close()
 
 			if bytes.Contains(content, stringToSearch) {
-				fmt.Printf("found string %s in %s!%s", os.Args[1], path, f.Name)
+				fmt.Printf("found string %s in %s!%s\n", os.Args[1], path, f.Name)
 			}
 		}
 
